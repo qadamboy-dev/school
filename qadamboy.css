@@ -17,7 +17,7 @@
 .sm-bloc{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 80%;
     height: 560px;
 }
@@ -59,6 +59,7 @@
     font-family: 'Nunito Sans', sans-serif;
     margin-top: 10pc;
     cursor: pointer;
+    background: transparent;
     transition: .3s;
 }
 
