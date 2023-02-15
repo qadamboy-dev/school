@@ -67,3 +67,182 @@
     color: white;
     background: #49BBBD;
 }
+
+.text3{
+    z-index: 1;
+    margin-bottom: 8pc;
+    width: 80%;
+}  
+
+.text3 h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.text3 h6{
+    font-weight: 500; 
+    font-size: 24px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-top: 1pc;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 2408.89px;
+    position: relative;
+    z-index: 10;
+    margin-top: 3pc;
+}
+
+.card2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    z-index: 1;
+}
+
+.card::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 70%;
+    height: 100%;
+    background: #c9e0f5;
+    z-index: 0;
+}
+
+.sm-card{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(8pc);
+}
+
+.ms-card{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3pc;
+}
+
+.ms-card span{
+    display: flex;
+    align-items: center;
+}
+
+.svg{
+    margin-right: 1pc;
+}
+
+.svg1{
+    margin-left: 3pc;
+}
+
+.ms-card1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5pc;
+
+}
+
+.ms-card span:nth-child(1){
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.ms-card span:nth-child(2){
+    font-weight: 500;
+    font-size: 24px;
+    color: #00BCD4;
+    text-transform: uppercase;
+}
+
+.cards{
+    background: #FFFFFF;
+    box-shadow: 0px 3px 49px 9px rgba(0, 0, 0, 0.06);
+    border-radius: 24px;
+    transform: matrix(0.98, -0.17, 0.17, 0.98, 0, 0);   
+    width:100px;
+    height:418px;
+    margin-right: 3pc;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards span{
+    z-index: 5;
+    transform: rotate(90deg); 
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.imgc{
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    background-image: url(img/Detail.png);
+}
+
+.cards span{
+    color: white;
+}
+
+.cards::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    border-radius: 24px;
+    height: 372px;
+    background: #80f7bc;
+}
+
+.cards::before{
+    content: '';
+    position: absolute;
+    width: 62px;
+    border-radius: 24px;
+    height: 302px;
+    background: #FF6F00;
+    z-index: 1;
+}
+
+.s2::before{
+    background: #FF8374;
+}
+
+.s3::before{
+    background: #B45A1B;
+}
+
+.s4::before{
+    background: #FFB300;
+}
+
+.s5::before{
+    background: #C583FF;
+}
+
+.s6::before{
+    background: #00A8FF;
+}
+
+.s7::before{
+    background: #6DB4A7;
+}
+
+.chz{
+    width: 80%;
+    height: 60px;
+    background: rgb(185, 184, 184);
+    border-radius: 30px;
+}
