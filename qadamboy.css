@@ -183,7 +183,7 @@
     z-index: 5;
     transform: rotate(90deg); 
     font-weight: 500;
-    font-size: 24px;
+    color: white;
 }
 
 .imgc{
@@ -193,14 +193,10 @@
     background-image: url(img/Detail.png);
 }
 
-.cards span{
-    color: white;
-}
-
 .cards::after{
     content: '';
     position: absolute;
-    width: 80px;
+    width: 83%;
     border-radius: 24px;
     height: 372px;
     background: #80f7bc;
@@ -209,7 +205,7 @@
 .cards::before{
     content: '';
     position: absolute;
-    width: 62px;
+    width: 70%;
     border-radius: 24px;
     height: 302px;
     background: #FF6F00;
@@ -246,3 +242,91 @@
     background: rgb(185, 184, 184);
     border-radius: 30px;
 }
+
+.res{
+    display: flex;
+    width: 100%;
+    height: 821px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sm-res{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info .span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.2em;
+    color: #525596;
+    margin-left: 6pc;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.info .span::after{
+    content: '';
+    position: absolute;
+    left: -6pc;
+    width: 4pc;
+    height: 1px;
+    background: #525596;
+}
+
+.info h1{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #2F327D;
+    margin: 2pc 0;
+}
+
+.info p{
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #696984;
+    width: 70%;
+    margin: 1pc;
+}
+
+.info button{
+    border: 1px solid #49BBBD;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    width: 403px;
+    height: 80px;
+    background: none;
+    position: relative;
+}
+
+.info button span{
+    font-weight: 400;
+    position: absolute;
+    left: 1.3pc;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 0.02em;
+    color: #49BBBD;
+}
+
+.st{
+    border: 1px #00CBB8 solid;
+    padding: 30px;
+    border-radius: 80px;
+    position: absolute;
+    right: -1px;
+}
+
