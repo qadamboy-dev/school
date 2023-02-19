@@ -403,3 +403,42 @@
     border-radius: 50%;
     background: #00A8FF;
 }
+
+.cour{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.sms-cour{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.sms-cour .h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 180%;
+    color: #2F327D;
+}
+
+.sms-cour .p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    text-align: center;
+    color: #696984;
+}
+
+.cardc{
+    display: flex;
+}
+
+.sm-cour{
+    display: flex;
+    flex-direction: column;
+}
