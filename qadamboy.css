@@ -3,8 +3,8 @@
 *{
     margin: 0;
     padding: 0%;
-    text-decoration: none;
     font-family: 'Poppins';
+    text-decoration: none;
 }
 
 .bloc {
@@ -409,6 +409,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin-top: 10rem;
 }
 
 .sms-cour{
@@ -426,19 +427,85 @@
     color: #2F327D;
 }
 
-.sms-cour .p{
+.p{
     font-weight: 400;
     font-size: 24px;
     line-height: 180%;
-    text-align: center;
     color: #696984;
 }
 
 .cardc{
     display: flex;
+    margin-top: 4pc;
 }
 
 .sm-cour{
     display: flex;
     flex-direction: column;
+    width: 50%;
+    margin-right: 4pc;
+}
+
+.sm-cour span{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF; 
+    width: 130px;
+    height: 40px;
+    background: #49BBBD;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2pc 0;
+}
+
+.sm-cour h1{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 180%;
+    color: #252641;
+    width: 90%;
+}
+
+.sm-cour p{
+    width:65%;
+    margin: 2pc 0;
+}
+
+.sm-cour a{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+    color: #696984;
+}
+
+.sm-cour1{
+    display: flex;
+    flex-direction: column;
+}
+
+.sm-cour1 .ms-cour:nth-child(1){
+    margin: 0 0 2pc 0 ;
+}
+
+.ms-cour{
+    margin: 2pc 0;
+    display: flex;
+}
+
+.tex{
+    margin-left: 2pc;
+}
+
+.tex h1{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 180%;
+    color: #252641;
+    margin-bottom: 1pc;
 }
