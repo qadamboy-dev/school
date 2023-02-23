@@ -155,7 +155,7 @@ li {
 .img-girl {
     width: 544px;
     height: 965px;
-    background-image: url("/img/girl.png");
+    background-image: url("img/girl.png");
     background-repeat: no-repeat;
     background-position: bottom;
 }
@@ -328,7 +328,7 @@ li {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 78px;
+    font-size: 96px;
     line-height: 100%;
     background: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
     -webkit-background-clip: text;
@@ -339,7 +339,7 @@ li {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 78px;
+    font-size: 96px;
     line-height: 100%;
     background: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
     -webkit-background-clip: text;
@@ -350,7 +350,7 @@ li {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 78px;
+    font-size: 96px;
     line-height: 100%;
     background: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
     -webkit-background-clip: text;
@@ -361,7 +361,7 @@ li {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 78px;
+    font-size: 96px;
     line-height: 100%;
     background: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
     -webkit-background-clip: text;
@@ -372,7 +372,7 @@ li {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 78px;
+    font-size: 96px;
     line-height: 100%;
     background: linear-gradient(90deg, #136CB5 0%, #49BBBD 100%);
     -webkit-background-clip: text;
@@ -529,7 +529,7 @@ li {
 .sec3-block1 {
     width: 600px;
     height: 403px;
-    background-image: url(/img/Rectangle\ 19.png);
+    background-image: url(img/Rectangle\ 19.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -570,7 +570,7 @@ li {
 .sec3-block2 {
     width: 600px;
     height: 400px;
-    background-image: url("/img/Rectangle\ 21.png");
+    background-image: url("img/Rectangle\ 21.png");
 }
 .sec3-block {
     display: flex;
@@ -849,5 +849,106 @@ li {
     z-index: 0;
     left: 450px;
     top: 140px;
+}
+.text-sec5::before {
+    content: "";
+    position: absolute;
+    width: 264px;    
+    height: 264px;
+    background: #5B61EB;
+    border-radius: 50%;
+    z-index: 0;
+    top: 2400;
+    left: 850px;
+    top: 550px;
+}
+.text-sec5::after {
+    content: "";
+    position: absolute;
+    width: 30px;    
+    height: 30px;
+    background: #F56666;
+    border-radius: 50%;
+    z-index: 0;
+    top: 2400;
+    left: 780px;
+    top: 750px;
+}
+.img1-sec5 {
+    z-index: 1;
+}
+.h1-sec6 {
+    width: 393px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 160%;
+    color: #2F327D;
+    text-align: start;
+}
+.tools {
+    color: #00CBB8;
+}
+.p-sec6 {
+    width: 568px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+    padding-top: 20px;
+}
+.blocks-sec6 {
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
+.text-sec6  {
+    padding-right: 130px;
+    
+}
+.img-sec6  {
+    padding-left: 150px;
+    margin-top: -250px;
+}
+.section-7amir {
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    align-items: center;
+}
+.h1-sec7 {
+    width: 347px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 160%;
+    color: #2F327D;
+}
+.quizzes {
+    color: #00CBB8;
+}
+.p-sec7 {
+    width: 596px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: #696984;
+    padding-top: 20px;
+}
+.text-sec7 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 124px;
+}
+.img-sec7 {
+    padding-right: 124px;
 }
 /* amirxon */
